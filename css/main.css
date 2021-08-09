@@ -310,6 +310,14 @@
     {
         padding: 1rem;
     }
+    .footer-main
+    {
+        width: 100%;        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
     
 }
 
@@ -411,5 +419,19 @@
         width: 95%;
         font-size: 1rem;
     }
-   
+    .footer-title
+    {
+        font-size: 0.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .sections-footer
+    {
+        justify-content: center;
+        padding: 0rem;
+        width: 100%;
+    }
+   .icon
+   {
+       font-size: 0.4rem;
+   }
 }
