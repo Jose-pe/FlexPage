@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-col
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2ea4f3;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    
+}
+.nav-item
+{
+    padding: 0.2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.7rem;
+    
+}
+
+.welcome
+{
+    background-color: rgb(18, 152, 241);
+    height: 15rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+    
+}
+.welcome-dark
+{
+    background-color: rgb(52, 53, 54);
+    height: 15rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.welcometitle
+{
+    align-self: center;
+    margin-top: 4rem;
+    color: whitesmoke;
+}
+
+.welcomesubtitle
+{
+    align-self: flex-end;
+    color: rgb(250, 200, 216);
+    padding-right: 15rem;
+    font-size: 0.8rem;
+    
+}
+.card-ligth
+{
+    display: flex;    
+    flex-direction: column;
+    background-color: #eee7e7;
+    -webkit-box-shadow: 6px 2px 10px -3px #B7B7B7; 
+    box-shadow: 6px 12px 21px -3px #B7B7B7;
+    border-radius: 10px;
+    width: 23%;    
+    margin: 1rem;
+}
+.card-title-ligth
+{
+    align-self: center;
+    color: rgb(24, 23, 23);
+    padding: 0.5rem;
+}
+.card-text-ligth
+{
+    font-size: 0.8rem;
+    color: rgb(53, 50, 50);
+    text-align: justify;
+    padding: 1rem;
+}
+.card-black 
+{
+    display: flex;    
+    flex-direction: column;
+    background-color: #313131;
+    -webkit-box-shadow: 6px 2px 10px -3px #B7B7B7; 
+    box-shadow: 6px 12px 21px -3px #B7B7B7;
+    border-radius: 10px;
+    width: 23%;    
+    margin: 1rem;
+}
+.card-title
+{
+    align-self: center;
+    color: whitesmoke;
+    padding: 0.5rem;
+}
+.card-body
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    
+ 
+}
+.card-img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.card-img > img 
+{
+    width: 90%;
+    margin: 1rem;    
+}
+
+.card-text
+{
+    font-size: 0.8rem;
+    color: whitesmoke;
+    text-align: justify;
+    padding: 1rem;
+}
+.card-footer
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+.card-footer-second
+{
+    display: flex;
+     flex-direction: column;
+    font-size: 0.5rem;
+    color: rgb(163, 154, 154);
+}
+
+.button-dark
+{
+    cursor: pointer;
+    border-color: whitesmoke;
+    border-radius: 6px;
+    text-align: center;
+    transition-duration: 0.3s;
+    font-size: 0.6rem;
+    font-weight: 600;
+    min-width: 2.5rem;
+    width: 3.8rem;    
+    height: 1.5rem;
+    color: rgb(212, 211, 211);
+    background-color: rgb(102, 105, 102);
+    
+}
+.button-dark:hover
+{   
+
+    font-weight: 500;
+    color:rgb(199, 225, 247);
+    background-color: rgb(97, 94, 95);
+    transform: translate(1%, -1%);
+}
+.button-ligth
+{
+    cursor: pointer;
+    border-color: whitesmoke;
+    border-radius: 6px;
+    text-align: center;
+    transition-duration: 0.3s;
+    font-size: 0.6rem;
+    font-weight: 600;
+    min-width: 2.5rem;
+    width: 3.8rem;    
+    height: 1.5rem;
+    color: dimgrey;
+    background-color: rgb(235, 243, 235);
+    
+}
+
+.button-ligth:hover
+{   
+    font-weight: 500;
+    color:steelblue;
+    background-color: lavenderblush;
+    transform: translate(1%, -1%);
+}
+
+.grandtitle
+{
+    color: cadetblue;
+    font-size: xx-large;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+.middletitle
+{
+    color: cadetblue;
+    font-size: x-large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.smalltitle
+{
+    color: cadetblue;
+    font-size: smaller;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-main
+{
+    width: 100%;
+    background-color: #1298F1;        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+.footersection
+{
+    display: flex;
+    flex-direction:column;   
+    margin: 2rem;         
+}
+
+.footer-title
+{
+    color: rgb(243, 242, 242);
+    font-size: medium;
+    letter-spacing: 0.2rem;
+    align-self: center;
+}
+.sections-footer
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.img-footer-brand
+{
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+   
+}
+.icon
+{
+    color: whitesmoke;
+    margin: 0.5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;   
+    font-weight: lighter; 
+    cursor: pointer;
+}
+.autorsection
+{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.autor
+{
+    color: cornsilk;   
+    font-size: 0.4rem;
+    
+
+}
+
+@media(max-width: 1440px) 
+{
+    .card-text
+    {
+        font-size: 0.7rem;
+    }
+    .sections-footer
+    {
+        padding: 1rem;
+    }
+    
+}
+
+@media (max-width: 1300px)
+{
+    .nav-item
+    {
+        padding-top: 1rem;
+        font-size: small;
+    }
+    .welcometitle
+    {
+        font-size: 0.6rem;
+        padding: 1rem;
+    }
+
+    .welcomesubtitle
+    {
+        font-size: 0.5rem;
+        padding: 1.5rem;
+    }
+    .container
+    {
+        flex-direction: column;        
+        align-items: center;
+        
+    }
+    .card-black
+    {
+        width: 70%;
+        
+    }
+    .card-ligth
+    {
+        width: 70%;
+        
+    }
+    .card-title
+    {
+        font-size: 1rem;
+    }
+    .card-title-ligth
+    {
+        font-size: 1rem;
+    }
+    .card-text
+    {
+        font-size: 0.7rem;
+    }
+    .card-text-ligth
+    {
+        font-size: 0.7rem;
+    }
+
+    .footer-main
+    {
+        width: 100%;        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+    
+   
+}
+
+
+@media (max-width: 625px)
+{
+    .nav-item
+    {
+        padding-top: 1rem;
+        font-size: 0.5rem;
+    }
+    .welcometitle
+    {
+        font-size: 0.5rem;
+        padding: 0.6rem;
+    }
+
+    .welcomesubtitle
+    {
+        font-size: 0.4rem;
+        padding: 1rem;
+    }
+
+    .container
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-black
+    {
+        width: 95%;
+        font-size: 1rem;
+    }
+    .card-ligth
+    {
+        width: 95%;
+        font-size: 1rem;
+    }
+   
+}
