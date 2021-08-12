@@ -435,3 +435,12 @@
        font-size: 0.4rem;
    }
 }
+
+@media (max-width: 375px)
+{
+    .nav-item
+    {
+        padding-top: 1rem;
+        font-size: 0.3rem;
+    }
+}
