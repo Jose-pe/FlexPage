@@ -435,6 +435,19 @@
        font-size: 0.4rem;
    }
 }
+@media(max-width:425px )
+{
+    .button-dark
+    {
+         width: 3.5rem;
+         font-size: 0.6rem;
+    }
+    .button-ligth 
+    {
+         width: 3.5rem;
+         font-size: 0.6rem;
+    }
+}
 
 @media (max-width: 375px)
 {
@@ -443,4 +456,24 @@
         padding-top: 1rem;
         font-size: 0.3rem;
     }
+    .footer-title
+    {
+        font-size: 0.3rem;
+        margin-bottom: 0.8rem;
+    }
+    .icon
+   {
+       font-size: 0.2rem;
+       letter-spacing: 0.1rem;   
+   }
+   .button-dark
+   {
+        width: 1.7rem;
+        font-size: 0.5rem;
+   }
+   .button-ligth 
+   {
+        width: 1.7rem;
+        font-size: 0.5rem;
+   }
 }
